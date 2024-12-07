@@ -1,0 +1,366 @@
+body{
+    font-family:  Space;
+    box-sizing: border-box;
+}
+.container{
+    width: 375px;
+    height: 777px;
+    background-color: #F6F8FF;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 327px;
+    height: 38px;
+    margin-top: 31px;
+    margin-left: 24px;
+    position: absolute;
+}
+.header h1 {
+    margin-right: 121px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38.51px;
+    text-align: left;
+    color: #222731;
+}
+
+.header p {
+    width: 40px;
+    height: 19px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 19.25px;
+    letter-spacing: 2.5px;
+    text-align: right;
+    color: #4B6A9B;
+}
+.image {
+    width: 20px;
+    height: 20px;
+}
+.bodyInput{
+    width: 327px;
+    height: 60px;
+    margin-top: 105px;
+    margin-left: 24px;
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  0 0 5px rgba(93, 92, 92, 0.3);
+}
+.username{
+    width: 184px;
+    margin-left: 6px;
+    font-size: 13px;
+    line-height: 25px;
+    color: #4B6A9B;
+    border: none;
+}
+.searchImg{
+    width: 20.05px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 16px;
+}
+.searchBtn{
+    width: 70px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #0079FF;
+    border: none;
+}
+.footer{
+    width: 327px;
+    height: 517px;
+    margin-top: 181px;
+    margin-left: 24px;
+    background-color: white;
+    position: absolute;
+    border-radius: 16px;
+    box-shadow: 0 0 5px rgba(113, 112, 112, 0.3);
+}
+#avatar {
+    width: 70px;
+    height: 70px;
+    margin-top: 32px;
+    margin-left: 24px;
+    border-radius: 50%;    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+#avatar:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+}
+#name {
+margin-left: 114px;
+margin-top: -119px;
+font-size: 22px;
+font-weight: 700;
+line-height: 23.7px;
+color: #2B3442;
+}
+#login{
+    margin: 25px 32px;
+    font-size: 16px;
+}
+#bio{
+    margin-top: -285px;
+    margin-left: 21px;
+    font-size: 20px;
+    color: #4B6A9B;
+}
+.bodyIn{
+    width: 279px;
+    height: 85px;
+    margin-top: -300px;
+    margin-left: 48px;
+    border-radius: 10px;
+    background-color: #F6F8FF;
+    position: absolute;
+    
+}
+.bodyIn p{
+    display: inline-block;
+    margin: 10px; 
+    padding-right: 10px;
+    color: #4B6A9B;
+}
+#repos{
+    display: inline-block;
+    margin: 10px;
+    margin: 90px 46px;
+    position: absolute;
+    z-index: 3;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2B3442;
+}
+#followers{
+    display: inline-block;
+    margin: 10px;
+    margin: 90px 133px;
+    position: absolute;
+    z-index: 3; 
+    font-size: 20px;
+    font-weight: 700;
+    color: #2B3442;
+}
+#following{
+    display: inline-block;
+    margin: 10px;
+    margin: 90px 230px;
+    position: absolute;
+    z-index: 3; 
+    font-size: 20px;
+    font-weight: 700;
+    color: #2B3442;
+}
+.img2{
+    margin: 102px 12px;
+}
+#html{
+padding-top: 335px;
+padding-left: 40px;
+text-decoration-skip-ink: none;
+}
+.container.darkened {
+    background-color: #141D2F;
+}
+.container .header h1 {
+    color: #222731; 
+}
+.container.darkened h1{
+    color: #fff;
+}
+.container .header .p1 {
+    color: #4B6A9B; 
+    display: block;  
+}
+.container.darkened .p1 {
+    display: none; 
+}
+.container .header .p2 {
+    display: none;  
+}
+.container.darkened .p2 {
+    display: block;
+    color: #fff; 
+}
+.container.darkened .bodyInput{
+    background-color: #1E2A47;
+}
+.container.darkened .username{
+    background-color: #1E2A47;
+}
+.container.darkened .footer{
+    background-color: #1E2A47;
+}
+.container.darkened .bodyIn {
+    background-color: #141D2F;
+}
+.container.darkened #name{
+    color: #fff;
+}
+.container.darkened #bio{
+    color: #fff;
+}
+.image2{
+    display: none;
+}
+.container.darkened .image2{
+    display: block;
+}
+.container.darkened .image{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .container{
+        width: 768px;
+        height: 1024px;
+    }
+    .header{
+        width: 573px;
+        height: 38px;
+        top: 140px;
+        left: 97px;
+    }
+    .header .p1{
+        margin-left: 224px;
+    }
+    .bodyInput{
+        width: 573px;
+        height: 69px;
+        top: 144px;
+        left: 97px;
+    }
+    .footer{
+        width: 573px;
+        height: 481px;
+        margin: 356px 114px;
+    }
+    .searchImg{
+        width: 24.06px;
+        height: 24px;
+    }
+    .username{
+        width: 254px;
+        height: 25px;
+        margin-left: 183px;
+    }
+    #avatar{
+        width: 117px;
+        height: 117px;
+    }
+    #name{
+        font-size: 34px;
+        margin-left: 185px;
+        margin-top: -148px;
+    }
+    .bodyIn{
+        width: 493px;
+        height: 85px;
+        bottom: 705px;
+        left: 112px;
+    }
+    .bodyIn p{
+        margin: 17px 47px;
+    }
+    #repos{
+        margin: 65px 100px;
+        font-size: 23px;
+    }
+    #followers{
+        margin: 65px 240px;
+        font-size: 23px;
+    }
+    #following{
+        margin: 65px 420px;
+        font-size: 23px;
+    }
+    .img2{
+        margin: 63px 17px;
+    }
+    #html{
+        margin: -51px 10px;
+    }
+    #bio{
+        margin-top: -200px;
+        margin-left: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .container{
+        width: 1440px;
+        height: 900px;
+    }
+    .header{
+        width: 730px;
+        height: 38px;
+        top: 144px;
+        left: 355px;
+    }
+    .header .p1{
+        margin-left: 390px;
+    }.bodyInput{
+        width: 730px;
+        height: 69px;
+        top: 137px;
+        left: 349px;        
+    }
+    .footer{
+        width: 730px;
+        height: 444px;
+        top: -8px;
+        left: 260px;
+    }
+    .searchImg{
+        width: 24.06px;
+        height: 24px;     
+    }
+    .username{
+        width: 254px;
+        height: 25px;
+        margin-left: 336px;
+    }
+    #name{
+        font-size: 34px;
+        margin-left: 185px;
+        margin-top: -148px;
+    }
+    .bodyIn{
+        width: 493px;
+        height: 85px;
+        bottom: 768px;
+        left: 496px;
+    }
+    .bodyIn p{
+        margin: 17px 47px;
+    }
+    #repos{
+        margin: 65px 232px;
+        font-size: 23px;
+    }
+    #followers{
+        margin: 65px 374px;
+        font-size: 23px;
+    }
+    #following{
+        margin: 65px 560px;
+        font-size: 23px;
+    }
+    .img2{
+        margin: 63px 17px;
+    }
+    #html{
+        margin: -96px 76px;
+    }
+    #bio{
+        margin-left: 174px;
+        margin-top: -200px;
+    }
+}
